@@ -26,7 +26,7 @@ export function fetchUser(username, password) {
     }
     return async function(dispatch) {
         dispatch(fetchUserRequest());
-        fetch(`http://127.0.0.1:8000/auth_user/login/`, {
+        fetch(`https://fullstackshop-api.herokuapp.com/auth_user/login/`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

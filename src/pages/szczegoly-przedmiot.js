@@ -20,7 +20,7 @@ class NoteDetail extends React.Component {
 
     componentDidMount() {
         const id = this.props.match.params.id
-        fetch(`http://127.0.0.1:8000/api/item_detail/${id}`)
+        fetch(`https://fullstackshop-api.herokuapp.com/api/item_detail/${id}`)
         .then(res => res.json())
         .then(data => this.setState(
             {note_detail: data}

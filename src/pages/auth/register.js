@@ -107,7 +107,7 @@ class RegisterForm extends React.Component {
         
         if(errorsData.valid) { 
             
-            fetch('http://127.0.0.1:8000/auth_user/register/', {
+            fetch('https://fullstackshop-api.herokuapp.com/auth_user/register/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

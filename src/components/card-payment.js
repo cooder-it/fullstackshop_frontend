@@ -26,7 +26,7 @@ function CheckoutForm() {
     // Create PaymentIntent as soon as the page loads
 
     window
-      .fetch("http://127.0.0.1:8000/payment/", {
+      .fetch("https://fullstackshop-api.herokuapp.com/payment/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

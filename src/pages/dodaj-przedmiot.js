@@ -39,7 +39,7 @@ class LoginForm extends React.Component {
             return
         }
 
-        fetch('http://127.0.0.1:8000/api/create_item/', {
+        fetch('https://fullstackshop-api.herokuapp.com/api/create_item/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

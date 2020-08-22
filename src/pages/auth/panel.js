@@ -18,7 +18,7 @@ class Panel extends React.Component {
         }
         const token = localStorage.getItem('token')
         console.log(token)
-        fetch('http://127.0.0.1:8000/auth_user/delete/', {
+        fetch('https://fullstackshop-api.herokuapp.com/auth_user/delete/', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -33,7 +33,7 @@ class Panel extends React.Component {
         const data = {
             username: this.props.username
         }
-        fetch('http://127.0.0.1:8000/api/get_user_items/', {
+        fetch('https://fullstackshop-api.herokuapp.com/api/get_user_items/', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

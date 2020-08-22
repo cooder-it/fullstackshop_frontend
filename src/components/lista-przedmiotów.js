@@ -52,7 +52,7 @@ class ListaNotatek extends React.Component {
     }
 
     fetchData() {
-        fetch(`http://127.0.0.1:8000/api/item_list/`)
+        fetch(`https://fullstackshop-api.herokuapp.com/api/item_list/`)
         .then(res => res.json())
         .then(data => {
             this.setState({ 
