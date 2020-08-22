@@ -1,0 +1,66 @@
+.notatki_container {
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+    display: flex;
+}
+.notatki_wrapper {
+    width: 74%;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.notatki_header {
+    display: flex;
+    width: 100%;
+}
+.notatki_header div {
+    background-color: white;
+    flex-basis: 20%;
+}
+.notatki_header div a {
+    padding: 12px 20px;
+    font-size: 20px;
+    display: block;
+}
+.notatki_header div p {
+    padding: 12px 20px;
+    font-size: 20px;
+}
+.notatki_wrapper div form {
+    margin: 0% 0;
+    flex-basis: 80%;
+}
+.notatki_wrapper div form input {
+    padding: 12px 20px;
+    border: none;
+    font-size: 24px;
+}
+.notatka_container {
+    background-color: white;
+    padding: 20px;
+    margin: 2% 0;
+    display: flex;
+    flex-direction: row;
+    transition: .2s;
+}
+.notatka_container div {
+    flex-basis: 90%;
+    flex-grow: 1;
+}
+.notatka_container span {
+    display: inline-block;
+    width: 6%;
+}
+.notatki_container button {
+    padding: 2px;
+    border: none;
+    flex-grow: 1;
+    background-color: rgb(86, 86, 245);
+    flex-basis: 5%;
+    margin-left: 2%;
+    color: white;
+    cursor: pointer;
+}
+
+.notatka_container:hover {
+    background-color: rgb(236, 236, 236);
+}

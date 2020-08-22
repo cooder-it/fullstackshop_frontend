@@ -1,0 +1,48 @@
+.notatka_detal_container {
+    width: 74%;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.notatka_detal_header {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+.notatka_detal_header button {
+    flex-basis: 7%;
+    padding: 6px;
+    margin-right: 4%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.notatka_detal_header button:nth-child(1) {
+    background-color: rgb(224, 111, 91);
+}
+.notatka_detal_header button:nth-child(2) {
+    background-color: rgb(86, 86, 245);
+}
+.notatka_detal {
+    margin-top: 2%;
+    background-color: white;
+}
+.notatka_detal h1 {
+    padding: 2% 1%;
+}
+.notatka_detal p {
+    padding: 1% 1%;
+}
+.payment {
+    padding: 2% 1%;
+}
+#payment-form {
+    padding: 2% 1%;
+    width: 60%;
+}
+#payment-form button {
+    padding: 6px;
+    margin: 2% 0;
+    width: 10%;
+}
